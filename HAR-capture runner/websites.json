@@ -1,0 +1,147 @@
+{
+  "timeout_ms": 30000,
+  "profiles": [
+    {
+      "id": "profile_01",
+      "accounts": {}
+    },
+    {
+      "id": "profile_02",
+      "accounts": {}
+    },
+    {
+      "id": "profile_03",
+      "accounts": {}
+    },
+    {
+      "id": "profile_04",
+      "accounts": {}
+    },
+    {
+      "id": "profile_05",
+      "accounts": {}
+    }
+  ],
+  "sites": [
+    {
+      "id": "youtube",
+      "enabled": true,
+      "start_url": "https://www.youtube.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s YouTube/Google test account. Search for a public tutorial and open its watch page. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "enabled": true,
+      "start_url": "https://www.apple.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Use this profile’s Apple test account to sign in to the account area, then browse a product page. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "enabled": true,
+      "start_url": "https://www.amazon.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s Amazon test account. Search for a keyboard and open one product page. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "ebay",
+      "enabled": true,
+      "start_url": "https://www.ebay.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s eBay test account. Search for a keyboard and open one listing. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "wikipedia",
+      "enabled": true,
+      "start_url": "https://www.wikipedia.org",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Open your chosen Wikipedia language edition, sign in with this profile’s test account, and search for and open an article. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "enabled": true,
+      "start_url": "https://www.reddit.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s Reddit test account. Search for a public topic and open one discussion. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "enabled": true,
+      "start_url": "https://www.facebook.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s Facebook test account. View its profile and open a public page. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "enabled": true,
+      "start_url": "https://x.com/home",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s X test account. Search for a public topic and open one post. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "enabled": true,
+      "start_url": "https://www.netflix.com/browse",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s authorized Netflix account and select its viewing profile. Search for a title and open its details. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "enabled": true,
+      "start_url": "https://github.com",
+      "steps": [],
+      "checks": [
+        {
+          "action": "manual",
+          "message": "Sign in with this profile’s GitHub test account. Search for a public repository and open its README. Complete any login verification yourself. Confirm you are signed in as the intended test identity and that the pages have finished loading; then type done. Type blocked if you cannot finish, or skip to omit this pair."
+        }
+      ]
+    }
+  ]
+}

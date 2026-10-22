@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-har-capture-runner"
+version = "0.1.0"
+description = "Capture isolated test-account browser workflows and validate HAR artifacts"
+requires-python = ">=3.10"
+dependencies = ["playwright==1.62.0", "jsonschema==4.26.0"]
+
+[project.scripts]
+har-capture-runner = "capture_runner.__main__:main"
+
+[tool.setuptools.package-data]
+capture_runner = ["schemas/*.json", "schemas/LICENSE", "schemas/PROVENANCE.md"]
+
+[tool.setuptools.packages.find]
+include = ["capture_runner*"]

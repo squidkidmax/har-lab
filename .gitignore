@@ -1,0 +1,13 @@
+.DS_Store
+.idea/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+authTokens*.txt
+server_jwt*.txt
+/HAR-synthetic file generator/output/
+/HAR-capture runner/captures/
+/HAR-capture runner/demo-captures/

@@ -1,0 +1,477 @@
+{
+  "description": "Expected outcomes for synthetic fixtures; keep separate from sanitizer inputs.",
+  "cases": [
+    {
+      "file": "header_title_case.har",
+      "secrets": [
+        "d254a0f126122348713079ba50ff9c53"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "header_lower_case.har",
+      "secrets": [
+        "ca1855b283e71d86c8014d820811a233"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "header_mixed_case.har",
+      "secrets": [
+        "f263c5552369cc721b7e9928fed7051d"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "query_access_token.har",
+      "secrets": [
+        "a2a62013dcfef91baee71e052b1c44e2"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "query_api_key.har",
+      "secrets": [
+        "82e3d55e9bafaa83513f38fbc3ae3c83"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "query_refresh_token.har",
+      "secrets": [
+        "b1c5e6a6708d3b93ea7f939a2d0f79e7"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "query_encoded_password.har",
+      "secrets": [
+        "9d18e28d982847a2783ae9a63cd2deb1"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "request_cookie.har",
+      "secrets": [
+        "a47bc6c2ed620adc6413ef3976d51693"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "response_cookie.har",
+      "secrets": [
+        "377d66e98d84467bd73b8c5a68d598a7"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "form_text.har",
+      "secrets": [
+        "0e265e82ec5660e7cc7d943d5b9ac750"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "form_params_and_text.har",
+      "secrets": [
+        "329b2c7c29b4631a5a1c93b0b3bd9947"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "nested_request_json.har",
+      "secrets": [
+        "2bd62086a6599cd69523d43030a3577b"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "array_request_json.har",
+      "secrets": [
+        "8d631e1e4cce575b6289f207b9359642"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "nested_response_json.har",
+      "secrets": [
+        "1847726b6e365129c6c58ea57214bdbf"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "base64_response_json.har",
+      "secrets": [
+        "87089273c97c659be5e58a61761050f4"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "credential_echo.har",
+      "secrets": [
+        "d9f53f0a88e49bf67ea14f13dc39993c"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "jwt_claim.har",
+      "secrets": [
+        "e49804de84fdf06f4b20472faeea7200"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "url_password.har",
+      "secrets": [
+        "1e23eab64b1d5a9b49a76f51cddadc8d"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "xml_password.har",
+      "secrets": [
+        "b973255e11c35df945cb90166ebcb9b7"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "html_password.har",
+      "secrets": [
+        "d334b55ca7f1ba382d343efd57669e14"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        }
+      }
+    },
+    {
+      "file": "unknown_opaque_field.har",
+      "secrets": [
+        "60b24bfdea45c2b15ae9ea8ef71dce18"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "escaped_json_password.har",
+      "secrets": [
+        "9bbec09a556fff89f0661c04b06f534b"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "basic_auth.har",
+      "secrets": [
+        "1984ba45151ad6a32f29d683a1b264d4"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "custom_api_key_header.har",
+      "secrets": [
+        "3c8edd956b4871c7f02a4dab1b4fad16"
+      ],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "clean_query_code.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked",
+        "/log/entries/0/request/queryString/0/value": "HTTP404"
+      }
+    },
+    {
+      "file": "clean_query_state.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked",
+        "/log/entries/0/request/queryString/0/value": "ready"
+      }
+    },
+    {
+      "file": "clean_javascript.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "clean_html.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    },
+    {
+      "file": "clean_password_policy.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked",
+        "request_json": {
+          "password_policy": "minimum_12_chars"
+        }
+      }
+    },
+    {
+      "file": "clean_base.har",
+      "secrets": [],
+      "preserve": {
+        "/log/entries/0/response/status": 403,
+        "/log/entries/0/time": 50,
+        "/log/entries/0/timings": {
+          "send": 5,
+          "wait": 35,
+          "receive": 10
+        },
+        "response_contains": "Account temporarily locked"
+      }
+    }
+  ]
+}

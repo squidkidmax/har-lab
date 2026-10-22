@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+captures/
+demo-captures/
+test-captures/
+config.json
+.env
+*.egg-info/
+build/
+dist/
